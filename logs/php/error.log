@@ -1,0 +1,220 @@
+[10-Sep-2022 14:47:18 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 30
+[10-Sep-2022 14:47:18 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:18 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:0
+[10-Sep-2022 14:47:18 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:22
+[10-Sep-2022 14:47:18 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:47:18 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:47:18 UTC] PHP   5. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:47:18 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:47:18 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:47:18 UTC] PHP   8. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:47:39 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 30
+[10-Sep-2022 14:47:39 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:39 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:47:39 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:47:39 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:34
+[10-Sep-2022 14:47:39 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:47:39 UTC] PHP   5. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:47:39 UTC] PHP   6. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:47:39 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:47:39 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:47:39 UTC] PHP   9. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:47:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:30) in /home/b/Local Sites/narratives-test/app/public/wp-admin/includes/misc.php on line 1381
+[10-Sep-2022 14:47:39 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:39 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:47:39 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:47:39 UTC] PHP   3. do_action($hook_name = 'admin_init') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:175
+[10-Sep-2022 14:47:39 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:47:39 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:47:39 UTC] PHP   6. wp_admin_headers('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:47:39 UTC] PHP   7. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') /home/b/Local Sites/narratives-test/app/public/wp-admin/includes/misc.php:1381
+[10-Sep-2022 14:47:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:30) in /home/b/Local Sites/narratives-test/app/public/wp-includes/functions.php on line 6878
+[10-Sep-2022 14:47:39 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:39 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:47:39 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:47:39 UTC] PHP   3. do_action($hook_name = 'admin_init') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:175
+[10-Sep-2022 14:47:39 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:47:39 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:47:39 UTC] PHP   6. send_frame_options_header() /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:305
+[10-Sep-2022 14:47:39 UTC] PHP   7. header($header = 'X-Frame-Options: SAMEORIGIN') /home/b/Local Sites/narratives-test/app/public/wp-includes/functions.php:6878
+[10-Sep-2022 14:47:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:30) in /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php on line 9
+[10-Sep-2022 14:47:39 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:39 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:47:39 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:47:39 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:9
+[10-Sep-2022 14:47:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:30) in /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php on line 1112
+[10-Sep-2022 14:47:39 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:39 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:47:39 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:47:39 UTC] PHP   3. wp_user_settings() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:86
+[10-Sep-2022 14:47:39 UTC] PHP   4. setcookie($name = 'wp-settings-1', $value = '', $expires_or_options = 1694357259, $path = '/', $domain = NULL, $secure = FALSE) /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php:1112
+[10-Sep-2022 14:47:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:30) in /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php on line 1113
+[10-Sep-2022 14:47:39 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:39 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:47:39 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:47:39 UTC] PHP   3. wp_user_settings() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:86
+[10-Sep-2022 14:47:39 UTC] PHP   4. setcookie($name = 'wp-settings-time-1', $value = 1662821259, $expires_or_options = 1694357259, $path = '/', $domain = NULL, $secure = FALSE) /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php:1113
+[10-Sep-2022 14:47:40 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 30
+[10-Sep-2022 14:47:40 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:40 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/index.php:0
+[10-Sep-2022 14:47:40 UTC] PHP   2. require() /home/b/Local Sites/narratives-test/app/public/index.php:17
+[10-Sep-2022 14:47:40 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-blog-header.php:13
+[10-Sep-2022 14:47:40 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:47:40 UTC] PHP   5. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:47:40 UTC] PHP   6. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:47:40 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:47:40 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:47:40 UTC] PHP   9. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:47:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:30) in /home/b/Local Sites/narratives-test/app/public/wp-includes/pluggable.php on line 1421
+[10-Sep-2022 14:47:40 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:40 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/index.php:0
+[10-Sep-2022 14:47:40 UTC] PHP   2. require() /home/b/Local Sites/narratives-test/app/public/index.php:17
+[10-Sep-2022 14:47:40 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-blog-header.php:19
+[10-Sep-2022 14:47:40 UTC] PHP   4. do_action($hook_name = 'do_favicon') /home/b/Local Sites/narratives-test/app/public/wp-includes/template-loader.php:45
+[10-Sep-2022 14:47:40 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:47:40 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:47:40 UTC] PHP   7. do_favicon('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:47:40 UTC] PHP   8. wp_redirect($location = 'http://narratives-test.local/wp-includes/images/w-logo-blue-white-bg.png', $status = *uninitialized*, $x_redirect_by = *uninitialized*) /home/b/Local Sites/narratives-test/app/public/wp-includes/functions.php:1733
+[10-Sep-2022 14:47:40 UTC] PHP   9. header($header = 'X-Redirect-By: WordPress') /home/b/Local Sites/narratives-test/app/public/wp-includes/pluggable.php:1421
+[10-Sep-2022 14:47:40 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 30
+[10-Sep-2022 14:47:40 UTC] PHP Stack trace:
+[10-Sep-2022 14:47:40 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:0
+[10-Sep-2022 14:47:40 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:22
+[10-Sep-2022 14:47:40 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:47:40 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:47:40 UTC] PHP   5. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:47:40 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:47:40 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:47:40 UTC] PHP   8. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:48:02 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 89
+[10-Sep-2022 14:48:02 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:02 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:48:02 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:48:02 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:34
+[10-Sep-2022 14:48:02 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:48:02 UTC] PHP   5. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:48:02 UTC] PHP   6. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:48:02 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:48:02 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:48:02 UTC] PHP   9. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:48:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:89) in /home/b/Local Sites/narratives-test/app/public/wp-admin/includes/misc.php on line 1381
+[10-Sep-2022 14:48:02 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:02 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:48:02 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:48:02 UTC] PHP   3. do_action($hook_name = 'admin_init') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:175
+[10-Sep-2022 14:48:02 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:48:02 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:48:02 UTC] PHP   6. wp_admin_headers('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:48:02 UTC] PHP   7. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') /home/b/Local Sites/narratives-test/app/public/wp-admin/includes/misc.php:1381
+[10-Sep-2022 14:48:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:89) in /home/b/Local Sites/narratives-test/app/public/wp-includes/functions.php on line 6878
+[10-Sep-2022 14:48:02 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:02 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:48:02 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:48:02 UTC] PHP   3. do_action($hook_name = 'admin_init') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:175
+[10-Sep-2022 14:48:02 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:48:02 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:48:02 UTC] PHP   6. send_frame_options_header() /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:305
+[10-Sep-2022 14:48:02 UTC] PHP   7. header($header = 'X-Frame-Options: SAMEORIGIN') /home/b/Local Sites/narratives-test/app/public/wp-includes/functions.php:6878
+[10-Sep-2022 14:48:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:89) in /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php on line 9
+[10-Sep-2022 14:48:02 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:02 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:48:02 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:48:02 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:9
+[10-Sep-2022 14:48:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:89) in /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php on line 1112
+[10-Sep-2022 14:48:02 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:02 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:48:02 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:48:02 UTC] PHP   3. wp_user_settings() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:86
+[10-Sep-2022 14:48:02 UTC] PHP   4. setcookie($name = 'wp-settings-1', $value = '', $expires_or_options = 1694357282, $path = '/', $domain = NULL, $secure = FALSE) /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php:1112
+[10-Sep-2022 14:48:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:89) in /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php on line 1113
+[10-Sep-2022 14:48:02 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:02 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:48:02 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:48:02 UTC] PHP   3. wp_user_settings() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:86
+[10-Sep-2022 14:48:02 UTC] PHP   4. setcookie($name = 'wp-settings-time-1', $value = 1662821282, $expires_or_options = 1694357282, $path = '/', $domain = NULL, $secure = FALSE) /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php:1113
+[10-Sep-2022 14:48:03 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 89
+[10-Sep-2022 14:48:03 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:03 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:0
+[10-Sep-2022 14:48:03 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:22
+[10-Sep-2022 14:48:03 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:48:03 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:48:03 UTC] PHP   5. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:48:03 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:48:03 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:48:03 UTC] PHP   8. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:48:18 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 89
+[10-Sep-2022 14:48:18 UTC] PHP Stack trace:
+[10-Sep-2022 14:48:18 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:0
+[10-Sep-2022 14:48:18 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:22
+[10-Sep-2022 14:48:18 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:48:18 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:48:18 UTC] PHP   5. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:48:18 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:48:18 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:48:18 UTC] PHP   8. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:50:57 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 54
+[10-Sep-2022 14:50:57 UTC] PHP Stack trace:
+[10-Sep-2022 14:50:57 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:50:57 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:50:57 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:34
+[10-Sep-2022 14:50:57 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:50:57 UTC] PHP   5. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:50:57 UTC] PHP   6. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:50:57 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:50:57 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:50:57 UTC] PHP   9. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:50:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:54) in /home/b/Local Sites/narratives-test/app/public/wp-admin/includes/misc.php on line 1381
+[10-Sep-2022 14:50:57 UTC] PHP Stack trace:
+[10-Sep-2022 14:50:57 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:50:57 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:50:57 UTC] PHP   3. do_action($hook_name = 'admin_init') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:175
+[10-Sep-2022 14:50:57 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:50:57 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:50:57 UTC] PHP   6. wp_admin_headers('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:50:57 UTC] PHP   7. header($header = 'Referrer-Policy: strict-origin-when-cross-origin') /home/b/Local Sites/narratives-test/app/public/wp-admin/includes/misc.php:1381
+[10-Sep-2022 14:50:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:54) in /home/b/Local Sites/narratives-test/app/public/wp-includes/functions.php on line 6878
+[10-Sep-2022 14:50:57 UTC] PHP Stack trace:
+[10-Sep-2022 14:50:57 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:50:57 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:10
+[10-Sep-2022 14:50:57 UTC] PHP   3. do_action($hook_name = 'admin_init') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin.php:175
+[10-Sep-2022 14:50:57 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:50:57 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:50:57 UTC] PHP   6. send_frame_options_header() /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:305
+[10-Sep-2022 14:50:57 UTC] PHP   7. header($header = 'X-Frame-Options: SAMEORIGIN') /home/b/Local Sites/narratives-test/app/public/wp-includes/functions.php:6878
+[10-Sep-2022 14:50:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:54) in /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php on line 9
+[10-Sep-2022 14:50:57 UTC] PHP Stack trace:
+[10-Sep-2022 14:50:57 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:50:57 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:50:57 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:9
+[10-Sep-2022 14:50:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:54) in /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php on line 1112
+[10-Sep-2022 14:50:57 UTC] PHP Stack trace:
+[10-Sep-2022 14:50:57 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:50:57 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:50:57 UTC] PHP   3. wp_user_settings() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:86
+[10-Sep-2022 14:50:57 UTC] PHP   4. setcookie($name = 'wp-settings-1', $value = '', $expires_or_options = 1694357457, $path = '/', $domain = NULL, $secure = FALSE) /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php:1112
+[10-Sep-2022 14:50:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php:54) in /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php on line 1113
+[10-Sep-2022 14:50:57 UTC] PHP Stack trace:
+[10-Sep-2022 14:50:57 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:0
+[10-Sep-2022 14:50:57 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/edit.php:397
+[10-Sep-2022 14:50:57 UTC] PHP   3. wp_user_settings() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-header.php:86
+[10-Sep-2022 14:50:57 UTC] PHP   4. setcookie($name = 'wp-settings-time-1', $value = 1662821457, $expires_or_options = 1694357457, $path = '/', $domain = NULL, $secure = FALSE) /home/b/Local Sites/narratives-test/app/public/wp-includes/option.php:1113
+[10-Sep-2022 14:50:58 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 54
+[10-Sep-2022 14:50:58 UTC] PHP Stack trace:
+[10-Sep-2022 14:50:58 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:0
+[10-Sep-2022 14:50:58 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:22
+[10-Sep-2022 14:50:58 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:50:58 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:50:58 UTC] PHP   5. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:50:58 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:50:58 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:50:58 UTC] PHP   8. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
+[10-Sep-2022 14:51:13 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/b/Local Sites/narratives-test/app/public/wp-content/themes/twentytwentytwo/functions.php on line 54
+[10-Sep-2022 14:51:13 UTC] PHP Stack trace:
+[10-Sep-2022 14:51:13 UTC] PHP   1. {main}() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:0
+[10-Sep-2022 14:51:13 UTC] PHP   2. require_once() /home/b/Local Sites/narratives-test/app/public/wp-admin/admin-ajax.php:22
+[10-Sep-2022 14:51:13 UTC] PHP   3. require_once() /home/b/Local Sites/narratives-test/app/public/wp-load.php:50
+[10-Sep-2022 14:51:13 UTC] PHP   4. require_once() /home/b/Local Sites/narratives-test/app/public/wp-config.php:91
+[10-Sep-2022 14:51:13 UTC] PHP   5. do_action($hook_name = 'init') /home/b/Local Sites/narratives-test/app/public/wp-settings.php:598
+[10-Sep-2022 14:51:13 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/plugin.php:476
+[10-Sep-2022 14:51:13 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:331
+[10-Sep-2022 14:51:13 UTC] PHP   8. my_custom_post_product('') /home/b/Local Sites/narratives-test/app/public/wp-includes/class-wp-hook.php:307
