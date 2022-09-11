@@ -35,37 +35,7 @@ if (!function_exists('twentytwentytwo_support')) :
 	}
 
 
-	//  KOLJA EDITS START
-
-	function my_custom_post_product()
-	{
-		$labels = array(
-			'name'               => _x('Products', 'post type general name'),
-			'singular_name'      => _x('Product', 'post type singular name'),
-			'add_new'            => _x('Add New', 'book'),
-			'add_new_item'       => __('Add New Product'),
-			'edit_item'          => __('Edit Product'),
-			'new_item'           => __('New Product'),
-			'all_items'          => __('All Products'),
-			'view_item'          => __('View Product'),
-			'search_items'       => __('Search Products'),
-			'not_found'          => __('No products found'),
-			'not_found_in_trash' => __('No products found in the Trash'),
-			'menu_name'          => 'Products'
-		);
-		$args = array(
-			'labels'        => $labels,
-			'description'   => 'Holds our products and product specific data',
-			'public'        => true,
-			'menu_position' => 5,
-			'supports'      => array('title', 'editor', 'thumbnail', 'excerpt', 'comments'),
-			'has_archive'   => true,
-		);
-		register_post_type('product', $args);
-	}
-	add_action('init', 'my_custom_post_product');
-
-// KOLJA EDITS END
+	
 
 
 endif;
@@ -104,3 +74,20 @@ add_action('wp_enqueue_scripts', 'twentytwentytwo_styles');
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+
+//  KOLJA EDITS START
+
+function my_connection_types() {
+	p2p_register_connection_type( array(
+		'name' => 'posts_to_posts',
+		'to' => 'post',
+		'from' => 'post',
+		'reciprocal' => true
+	) );
+}
+add_action( 'p2p_init', 'my_connection_types' );
+
+// KOLJA EDITS END
+
+?>
